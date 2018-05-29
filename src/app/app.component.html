@@ -4,7 +4,7 @@
     <hr /> {{pushUpData | json}}
     <hr/>
     <div class="save">
-      <div *ngIf="!pushUpData.length > 0; else buttons">
+      <div *ngIf="!pushUpData.length; else buttons">
         <button (click)="updateOrCreatePushUpData('update')">New</button>
       </div>
       <ng-template #buttons> <button (click)="updateOrCreatePushUpData('update')">SAVE</button></ng-template>
