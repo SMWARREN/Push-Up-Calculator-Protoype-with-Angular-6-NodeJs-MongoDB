@@ -1,0 +1,25 @@
+{
+  "name": "PushUpAPIMicroserivce",
+  "version": "1.0.0",
+  "description": "Push Up Api Microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.4",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.16.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}

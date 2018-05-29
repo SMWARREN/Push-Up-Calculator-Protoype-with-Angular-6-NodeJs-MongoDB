@@ -1,0 +1,110 @@
+h1, h2, .h1Text {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-weight: 200;
+}
+.json {
+  grid-area: json;
+}
+h1, .h1Text {
+  color: #ffe330;
+  font-size: 49px;
+  font-weight: 400;
+}
+.h1Text {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+}
+
+.centered-container {
+  display: grid;
+  height: 100vh;
+  min-height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". . ." "json content ." ". . ."
+}
+
+.app-container {
+  display: grid;
+  width: 300px;
+  grid-area: content;
+  margin: 0 auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "top-calculator" "bottom-calculator";
+  background-color: #fff;
+  color: #444;
+}
+
+.top-calculator {
+  grid-area: top-calculator;
+  background-color: #1a1d1e;
+}
+
+.bottom-calculator {
+  grid-area: bottom-calculator;
+  background-color: #202628;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.week, .max {
+  color: #919da3;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 30px;
+}
+
+select {
+  color: #919da3;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.max {
+  text-align: right;
+}
+
+.numbers-container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.numbers-container div {
+  text-align: center;
+  margin: 30px;
+  color: #ffe330;
+  font-weight: 100;
+  font-size: 25px;
+}
+.save {
+  text-align: center;
+}
+
+.save button {
+  background-color: yellow;
+  color: #212629;
+  width: 80%;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+select {
+  outline: none;
+  -webkit-appearance: none;
+  background-color: #1a1d1e;
+  border-width: 0px;
+  border-style: none;
+  border-color: none;
+  border-image: initial;
+}
