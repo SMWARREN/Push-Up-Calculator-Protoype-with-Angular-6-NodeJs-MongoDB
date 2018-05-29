@@ -26,7 +26,17 @@ h1, .h1Text {
   height: 100vh;
   min-height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: ". . ." "json content ." ". . ."
+  grid-template-areas: ". . ." "json content ." ". . .";
+}
+
+@media only screen and (max-width: 920px) {
+  .centered-container {
+    display: grid;
+    height: 100vh;
+    min-height: 100%;
+    grid-template-areas: "content" "json"
+
+  }
 }
 
 .app-container {
