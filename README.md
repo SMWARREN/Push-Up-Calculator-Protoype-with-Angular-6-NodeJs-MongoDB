@@ -3,7 +3,7 @@
 
 Frontend MicroService / Demo: https://angular6-push-up.herokuapp.com/
 
-Backend MicroService: https://whispering-hollows-16871.herokuapp.com/
+Backend MicroService RESTAPI: https://whispering-hollows-16871.herokuapp.com/
 
 Database-as-a-Service: mongodb://username:password@ds235860.mlab.com:35860/pushups
 
