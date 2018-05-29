@@ -1,8 +1,10 @@
 # PushUps
 
 
-Frontend MicroService: https://angular6-push-up.herokuapp.com/
+Frontend MicroService / Demo: https://angular6-push-up.herokuapp.com/
+
 Backend MicroService: https://whispering-hollows-16871.herokuapp.com/
+
 Database-as-a-Service: mongodb://username:password@ds235860.mlab.com:35860/pushups
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
